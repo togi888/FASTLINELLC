@@ -3946,3 +3946,16 @@ section.lazy-placeholder:after {
 .cid-t7ME45xcBS .google-map[data-state="loading"] [data-state-details] {
   display: none;
 }
+
+
+@media screen and (max-width: 1200px) {
+    [data-nc-base="mobile-bar"] {
+        display: block !important;
+    }
+.Header-nav--primary {
+    display: none !important;
+  }
+  .Header--top {
+    display: none !important;
+  }
+}
